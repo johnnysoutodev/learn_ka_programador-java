@@ -7,12 +7,13 @@ package model;
 
 import java.util.Objects;
 import business.ValidacaoBO;
+import interfaces.Impressao;
 
 /**
  *
  * @author Johnny Souto
  */
-public class ClienteTO {
+public class ClienteTO implements Impressao{
     private int codigo;
     private String nome;
 
@@ -79,6 +80,11 @@ public class ClienteTO {
     @Override
     public String toString() {
         return "ClienteTO{" + "codigo=" + codigo + ", nome=" + nome + '}';
+    }
+
+    @Override
+    public void imprimiObjeto() {
+        System.out.println(this.toString());
     }
     
     
