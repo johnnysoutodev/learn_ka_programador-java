@@ -14,7 +14,7 @@ import model.ClienteTO;
 public class TesteClienteTO {
     
     public static void main(String args[]){
-        ClienteTO objClienteTO = new ClienteTO(1, "Ka Solution");
+        ClienteTO objClienteTO = new ClienteTO(0, "Ka Solution");
         System.out.println(objClienteTO.toString());
         System.out.println("Código: " + objClienteTO.getCodigo() + " " + "Cliente: " + objClienteTO.getNome());
     }
