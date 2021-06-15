@@ -10,5 +10,5 @@ package interfaces;
  * @author Johnny Souto
  */
 public interface Impressao {
-    
+    public void imprimiObjeto();
 }
