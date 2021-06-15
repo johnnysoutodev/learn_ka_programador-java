@@ -21,7 +21,7 @@ public class ClienteTO {
 
     public ClienteTO(int codigo, String nome) {
         this.setCodigo(codigo);
-        this.nome = nome;
+        this.setNome(nome);
     }
 
     public int getCodigo() {
