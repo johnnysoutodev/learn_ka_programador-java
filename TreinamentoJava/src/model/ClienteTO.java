@@ -67,6 +67,11 @@ public class ClienteTO {
         }
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ClienteTO{" + "codigo=" + codigo + ", nome=" + nome + '}';
+    }
     
     
 }
