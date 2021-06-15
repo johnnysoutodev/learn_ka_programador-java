@@ -15,6 +15,14 @@ public class ClientePessoaFisicaTO {
     private String CPF;
     private String RG;
 
+    public ClientePessoaFisicaTO() {
+    }
+
+    public ClientePessoaFisicaTO(String CPF, String RG) {
+        this.CPF = CPF;
+        this.RG = RG;
+    }
+
     public String getCPF() {
         return CPF;
     }
