@@ -20,7 +20,7 @@ public class ClienteTO {
     }
 
     public ClienteTO(int codigo, String nome) {
-        this.codigo = codigo;
+        this.setCodigo(codigo);
         this.nome = nome;
     }
 
