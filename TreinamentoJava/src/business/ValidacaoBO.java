@@ -14,4 +14,8 @@ public class ValidacaoBO {
     public static boolean validaCodigo(int codigo){
         return codigo > 0;
     }
+    
+    public static boolean validaNome(String nome){
+        return nome.length() > 2;
+    }
 }
