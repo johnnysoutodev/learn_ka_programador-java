@@ -11,14 +11,15 @@ import java.util.Objects;
  *
  * @author Johnny Souto
  */
-public class ClientePessoaFisicaTO {
+public class ClientePessoaFisicaTO extends ClienteTO{
     private String CPF;
     private String RG;
 
     public ClientePessoaFisicaTO() {
     }
 
-    public ClientePessoaFisicaTO(String CPF, String RG) {
+    public ClientePessoaFisicaTO(int codigo, String nome, String CPF, String RG) {
+        super(codigo, nome);
         this.CPF = CPF;
         this.RG = RG;
     }
@@ -70,7 +71,7 @@ public class ClientePessoaFisicaTO {
 
     @Override
     public String toString() {
-        return "ClientePessoaFisicaTO{" + "CPF=" + CPF + ", RG=" + RG + '}';
+        return super.toString() + "ClientePessoaFisicaTO{" + "CPF=" + CPF + ", RG=" + RG + '}';
     }
     
     
