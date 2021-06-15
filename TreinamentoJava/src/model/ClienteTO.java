@@ -6,6 +6,7 @@
 package model;
 
 import java.util.Objects;
+import business.ValidacaoBO;
 
 /**
  *
@@ -28,7 +29,13 @@ public class ClienteTO {
     }
 
     public void setCodigo(int codigo) {
-        this.codigo = codigo;
+        if(ValidacaoBO.validaCodigo(codigo)){
+            this.codigo = codigo;
+        }
+        else {
+            this.codigo = 1;
+        }
+        
     }
 
     public String getNome() {
