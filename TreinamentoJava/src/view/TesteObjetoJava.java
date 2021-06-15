@@ -11,4 +11,15 @@ package view;
  */
 public class TesteObjetoJava {
     
+    public static void main (String args[]){
+        String x = new String("valor");
+        String y = new String("valor");
+        System.out.println(x == y);
+        x = y;
+        System.out.println(x == y);
+        System.out.println(x.equals(y));
+        x = "valor 2";
+        System.out.println(x == y);
+    }
+    
 }
