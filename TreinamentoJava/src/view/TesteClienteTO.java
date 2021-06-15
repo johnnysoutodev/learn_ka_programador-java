@@ -17,6 +17,7 @@ public class TesteClienteTO {
         ClienteTO objClienteTO = new ClienteTO(0, "Ka Solution");
         System.out.println(objClienteTO.toString());
         System.out.println("Código: " + objClienteTO.getCodigo() + " " + "Cliente: " + objClienteTO.getNome());
+        objClienteTO.imprimiObjeto();
     }
     
 }
