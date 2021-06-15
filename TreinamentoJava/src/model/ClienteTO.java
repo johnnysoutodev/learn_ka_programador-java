@@ -33,6 +33,7 @@ public class ClienteTO {
             this.codigo = codigo;
         }
         else {
+            System.out.println("O código informado é inválido, foi inserido o valor 1.");
             this.codigo = 1;
         }
         
