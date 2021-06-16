@@ -3,9 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/Users/johnny/Projetos/Ka-Solutions/learn_ka_programador-java/TreinamentoJava/src/model/ClientePessoaFisicaTO.java</file>
+            <file>file:/Users/johnny/Projetos/Ka-Solutions/learn_ka_programador-java/TreinamentoJava/src/model/ClientePessoaJuridicaTO.java</file>
             <file>file:/Users/johnny/Projetos/Ka-Solutions/learn_ka_programador-java/TreinamentoJava/src/model/ClienteTO.java</file>
+            <file>file:/Users/johnny/Projetos/Ka-Solutions/learn_ka_programador-java/TreinamentoJava/src/view/TesteClientePessoaFisicaTO.java</file>
             <file>file:/Users/johnny/Projetos/Ka-Solutions/learn_ka_programador-java/TreinamentoJava/src/interfaces/Impressao.java</file>
             <file>file:/Users/johnny/Projetos/Ka-Solutions/learn_ka_programador-java/TreinamentoJava/src/view/TesteClienteTO.java</file>
+            <file>file:/Users/johnny/Projetos/Ka-Solutions/learn_ka_programador-java/TreinamentoJava/src/view/TesteObjetoJava.java</file>
             <file>file:/Users/johnny/Projetos/Ka-Solutions/learn_ka_programador-java/TreinamentoJava/src/business/ValidacaoBO.java</file>
         </group>
     </open-files>
