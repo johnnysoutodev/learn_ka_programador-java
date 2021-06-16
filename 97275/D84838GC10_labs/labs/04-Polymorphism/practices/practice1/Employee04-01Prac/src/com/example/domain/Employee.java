@@ -54,8 +54,13 @@ public class Employee {
         // Print out the data in this Employee object
         System.out.println("Employee id:         " + getEmpId());
         System.out.println("Employee name:       " + getName());
-        System.out.println("Employee SSN:  " + getSsn());
+        System.out.println("Employee SSN:        " + getSsn());
         System.out.println("Employee salary:     " + NumberFormat.getCurrencyInstance().format((double) getSalary()));
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" + "empId=" + empId + ", name=" + name + ", ssn=" + ssn + ", salary=" + salary + '}';
     }
     
     
