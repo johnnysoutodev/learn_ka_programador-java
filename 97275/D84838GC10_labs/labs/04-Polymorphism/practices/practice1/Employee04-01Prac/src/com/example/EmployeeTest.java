@@ -12,7 +12,6 @@ public class EmployeeTest {
     public static void main(String[] args) {
         
         Employee emp = new Employee(1, "Johnny Souto", "299.217.428-92", 144_000.00);
-
         // Create the classes as per the practice
         Engineer eng = new Engineer(101, "Jane Smith", "012-34-5678", 120_345.27);
 
