@@ -14,8 +14,12 @@ public class LocalDatesAndTimes {
     
     // Abe Lincoln's Birthday: February 12, 1809, died April 15, 1855
     //   How old when he died?
-    //   How many days did he live?  
-
+    //   How many days did he live?
+    LocalDate dataNascAbe = LocalDate.of(1809, FEBRUARY, 12);
+    LocalDate dataMorteAbe = LocalDate.of(1855, APRIL, 15);
+    System.out.println("Abe tinha " + dataNascAbe.until(dataMorteAbe, YEARS) + " anos quando morreu.");
+    System.out.println("Abe viveu por " + dataNascAbe.until(dataMorteAbe, DAYS) + " dias.");
+    System.out.println("");
     
     // Bennedict Cumberbatch, July 19, 1976
     //   Born in a leap year?
